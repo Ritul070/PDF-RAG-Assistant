@@ -164,7 +164,7 @@ if prompt := st.chat_input("Ask something..."):
         distances = results["distances"][0]
         best_distance = distances[0]
 
-)
+
 
         if best_distance < 1:
 
